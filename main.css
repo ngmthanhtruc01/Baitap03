@@ -1,0 +1,38 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.menu {
+    background-color: rgb(111, 102, 3);
+    overflow: hidden;
+}
+
+.menu ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.menu ul li {
+    float: left;
+}
+
+.menu ul li a {
+    display: block;
+    color: rgb(251, 240, 250);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    display:block;
+}
+
+.menu ul li a:hover {
+    background-color: #879c01;
+}
